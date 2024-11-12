@@ -12,7 +12,18 @@ reverse_string("Python")  # returns "nohtyP"
 #CODE 
 #YOUR
 #FUNCTION BELOW HERE
+def reverse_string(x):
+  a = 1
+  s = ""
+  for current_letter in x:
+    current_letter = int((len(x)) - (1 * a))
+    s = s + x[current_letter]
+    a += 1
+  return s
 
+
+
+  
 
 
 

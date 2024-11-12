@@ -11,6 +11,26 @@ count_words("Count the number of words in this sentence.")  # returns 7
 #CODE 
 #YOUR
 #FUNCTION BELOW HERE
+def count_words(x):
+  count = 0
+  for current_letter in x:
+    if current_letter == " ":
+      count += 1
+  if x == "":
+    count = 0
+  else:
+    count += 1
+  return count
+    
+  
+    
+  
+  
+  
+  
+  
+
+  
 
 
 

@@ -11,6 +11,21 @@ count_vowels("Python")  # returns 1
 #CODE 
 #YOUR
 #FUNCTION BELOW HERE
+def count_vowels(x):
+  s = 0
+  for current_letter in x:
+    if current_letter == "a":
+      s += 1
+    elif current_letter == "e":
+      s += 1
+    elif current_letter == "i":
+      s += 1
+    elif current_letter == "o":
+      s += 1
+    elif current_letter == "u":
+      s += 1
+  return s
+
 
 
 

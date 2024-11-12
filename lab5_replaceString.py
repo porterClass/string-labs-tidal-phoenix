@@ -14,6 +14,11 @@ replaceString("Python is difficult.", "difficult", "really easy")
 #CODE 
 #YOUR
 #FUNCTION BELOW HERE
+def replaceString(x,y,z):
+  s = x.replace(y, z)
+  return s
+
+
 
 
 

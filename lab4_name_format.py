@@ -12,6 +12,33 @@ first_last(last_first("Bugs Bunny"))  # returns "Bugs Bunny"
 #CODE 
 #YOUR
 #FUNCTION BELOW HERE
+def last_first(x):
+  s = (x.find(" "))
+  string1 = x[0:s]
+  string2 = x[s + 1:(len(x))]
+  final = string2 + ", " + string1
+  return final
+ 
+
+def first_last(x):
+  s = (x.find(" "))
+  c = (x.find(","))
+  string1 = x[0:c]
+  string2 = x[s + 1:(len(x))]
+  final = string2 + " " + string1
+  return final
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
