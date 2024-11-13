@@ -12,19 +12,19 @@ count_vowels("Python")  # returns 1
 #YOUR
 #FUNCTION BELOW HERE
 def count_vowels(x):
-  s = 0
+  count = 0
   for current_letter in x:
     if current_letter == "a":
-      s += 1
+      count += 1
     elif current_letter == "e":
-      s += 1
+      count += 1
     elif current_letter == "i":
-      s += 1
+      count += 1
     elif current_letter == "o":
-      s += 1
+      count += 1
     elif current_letter == "u":
-      s += 1
-  return s
+      count += 1
+  return count
 
 
 
